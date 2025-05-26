@@ -1,7 +1,9 @@
 #!/bin/bash
 
 
+echo "the number of the args is: $#"
 echo "Great Your name is: $1"
+
 
 read -p "Enter name of directory" dir
 
